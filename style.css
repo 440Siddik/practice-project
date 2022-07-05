@@ -1,7 +1,122 @@
 body{
   margin: 0;
-  padding: 0;
 }
 .red-clr{
   color: red;
+}
+
+.fl-btn{
+  text-decoration: none;
+  background-image: linear-gradient(red,orange);
+  color:white;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 30px 20px;
+
+}
+.first-ban{
+  background-image: url(images/shapes/Group/8450.png);
+  background-repeat: no-repeat;
+}
+.flexible-container{
+  display:flex;
+  margin-bottom: 150px;
+}
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+  text-align: center;
+  padding-top: 40px;
+
+}
+.half-width img{
+  width: 80%;
+
+}
+#f-par-pad{
+  padding-top: 13px;
+  padding-bottom: 19px;
+}
+#f-pad{
+  padding-top:150px ;
+}
+#ab-pad{
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+#ab-tit-pad{
+  padding-top:75px ;
+}
+.justify{
+  text-align: center justify;
+}
+.bg-img2{
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rec-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+ .rec-item{
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px gray;
+ 
+} 
+.par{
+  text-align: center;
+}
+#rec-h{
+  text-align: center;
+}
+#card1{
+
+  text-align: center;
+}
+ .cimg{
+  width:500px;
+} 
+.sm-analytics{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:20px 30px;
+  background-color: rgb(125, 184, 32);
+  width:900px;
+  margin-top: 80px;
+  margin-left: 200px;
+  border-radius: 40px;
+  border:8px solid red
+}
+.l-tit{
+  padding: 20px;
+  font-size: 30px;
+}
+.l-par{
+  padding: 20px;
+  margin-top: -50px;
+}
+footer{
+  background-color: black;
+  color:white;
+  height: 200px;
+  text-align: center;
+  margin-top: 80px;
+}
+.f-orange{
+  background-image: linear-gradient(orange,red);
+}
+
+.f-tit{
+  padding-top: 60px;
 }
